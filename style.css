@@ -36,14 +36,11 @@ a {
 
 #second-page {
 	background-color: black;
-	height: 50vh;
 	color: white;
 	
 }
 
-#me {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); 
+#third-page {
+	background: gray;
 }
+
