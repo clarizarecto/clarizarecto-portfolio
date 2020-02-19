@@ -65,7 +65,18 @@ a {
 }
 
 .logo {
-	width: 10vh;
+	width: 8vw;
 	
 }
 
+h1 {
+	font-size: 8vw;
+}
+
+h2 {
+	font-size: 5vw;
+}
+
+small, p {
+	font-size: 2vw;
+}
