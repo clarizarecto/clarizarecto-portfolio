@@ -17,7 +17,7 @@
 #banner {
 	position: absolute;
 	color: white;
-	padding: 30vh;
+	padding-top: 25vh;
 	width: 90%;
 	height: 80%;
 	background-color: rgba(0,0,0,0.7);
@@ -28,6 +28,8 @@
 
 hr {
 	background-color: white;
+	margin-right: 25vh;
+	margin-left: 25vh;
 }
 
 a {
@@ -57,11 +59,8 @@ a {
 
 }
 
-.card-columns {
-	@include media-breakpoint-only(lg) {
-		column-count: 8;
-	}
-	@include media-breakpoint-only(xl) {
-		column-count: 9;
-	}
+.logo {
+	width: 10vh;
+	
 }
+
