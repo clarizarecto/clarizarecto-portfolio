@@ -78,7 +78,8 @@ h2 {
 }
 
 small, p {
-	font-size: 2vw;
+	font-size: 19px;
+	letter-spacing: 1px;
 }
 
 #profilepic {
