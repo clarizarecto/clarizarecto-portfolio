@@ -41,6 +41,27 @@ a {
 }
 
 #third-page {
-	background: gray;
+	/*height: 25vh;*/
+	/*background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("./images/black-and-white-wallpaper-hd-1-desktop-wallpaper.jpg");*/
+	background-image: url("./images/black-and-white-wallpaper-hd-1-desktop-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
 }
 
+#contact {
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+
+}
+
+.card-columns {
+	@include media-breakpoint-only(lg) {
+		column-count: 8;
+	}
+	@include media-breakpoint-only(xl) {
+		column-count: 9;
+	}
+}
