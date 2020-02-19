@@ -80,3 +80,7 @@ h2 {
 small, p {
 	font-size: 2vw;
 }
+
+#profilepic {
+	width: 500px;
+}
